@@ -42,13 +42,16 @@ For detailed explanation on how things work, check out [Nuxt.js docs](https://nu
 
 ### ENV Config
 
-These variables should go in an `.env` file at the root of the project.
+Rename or copy `.env.example` to `.env` and set your `API_HOST`.
+```bash
+$ cp .env.example .env
+```
 
 - `API_HOST` - The host for your API
 
 ---
 
-This storefront assumes you have the API set up already.
+Make sure that your api works before setting this up, the storefront assumes your API is working.
 
 ## Database considerations
 
